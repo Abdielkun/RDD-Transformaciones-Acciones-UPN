@@ -14,4 +14,6 @@ Este repositorio proporciona ejemplos básicos de transformaciones y acciones en
 Para ejecutar cada ejemplo, asegúrate de tener Apache Spark instalado y ejecuta cada archivo `.py` desde la línea de comandos.
 
 ## Transformaciones
+- [map.py](transformations/map.py): Ejemplo de transformación `map`, que aplica una función a cada elemento del RDD.
+
 
