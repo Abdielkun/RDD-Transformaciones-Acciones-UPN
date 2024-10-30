@@ -1,6 +1,6 @@
 # Spark RDD - Transformaciones y Acciones
 
-Este repositorio proporciona ejemplos básicos de transformaciones y acciones en Apache Spark usando RDDs (Resilient Distributed Datasets). Cada transformación y acción tiene su propio archivo en las carpetas `transformations/` y `actions/`.
+Este repositorio proporciona ejemplos básicos de transformaciones y acciones en Apache Spark usando RDDs (Resilient Distributed Datasets). Cada transformación y acción tiene su propio archivo en las carpetas `transformaciones/` y `accciones/`.
 
 ## Contenidos
 - **Transformaciones**: Operaciones que crean un nuevo RDD a partir de uno existente.
