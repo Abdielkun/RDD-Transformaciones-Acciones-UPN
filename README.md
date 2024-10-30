@@ -12,3 +12,6 @@ Este repositorio proporciona ejemplos básicos de transformaciones y acciones en
 
 ## Ejecución
 Para ejecutar cada ejemplo, asegúrate de tener Apache Spark instalado y ejecuta cada archivo `.py` desde la línea de comandos.
+
+## Transformaciones
+map.py
