@@ -1,19 +1,20 @@
 from pyspark import SparkContext
 
-sc = SparkContext("local", "Union Example")
+sc = SparkContext("local", "Union Sentences Example")
 
-# Datos de ejemplo: dos listas de tuplas
-datos1 = [("a", 1), ("b", 2)]
-datos2 = [("c", 3), ("d", 4)]
+# Datos de ejemplo: dos listas de oraciones
+oracion1 = ["Gato"]
+oracion2 = ["Durmiendo"]
 
-# Crear RDDs a partir de los datos
-rdd1 = sc.parallelize(datos1)
-rdd2 = sc.parallelize(datos2)
+# Creamos RDDs
+rdd1 = sc.parallelize(oracion1)
+rdd2 = sc.parallelize(oracion2)
 
-# Aplicamos la transformación union para combinar los RDDs
+# combinamos los RDDs
 rdd_union = rdd1.union(rdd2)
 
-# Recogemos y mostramos el resultado
-print("Resultado de union:", rdd_union.collect())
+# UUnimos las palabras en una sola oración
+texto_unido = " ".join(rdd_union.collect())
+print("Resultado de union:", texto_unido)
 
 sc.stop()
