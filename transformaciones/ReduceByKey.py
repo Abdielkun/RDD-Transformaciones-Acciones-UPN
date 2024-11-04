@@ -13,6 +13,6 @@ rdd_reducido = rdd.reduceByKey(lambda a, b: a + b)
 
 # mostramos el resultado
 resultado = rdd_reducido.collect()
-print("Conteo por categoría:", resultado)
+print(":", resultado)
 
 sc.stop()
