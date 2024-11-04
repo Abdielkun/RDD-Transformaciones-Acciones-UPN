@@ -21,14 +21,14 @@ Para ejecutar cada ejemplo, asegúrate de tener Apache Spark instalado y ejecuta
 
 ## Acciones
 
-- [collect.py](Acciones/collect.py)**: Muestra la acción `collect`, que recupera todos los elementos del RDD al controlador.
-- [count.py](Acciones/count.py)**: Ejemplo de `count`, que cuenta el total de elementos del RDD.
-- [countByKey.py](Acciones/countByKey.py)**: Utiliza `countByKey` para contar elementos por clave en un RDD de pares.
-- [first.py](Acciones/first.py)**: Demuestra `first`, que devuelve el primer elemento del RDD.
-- [foreach.py](Acciones/foreach.py)**: Aplica `foreach` para ejecutar una función en cada elemento.
-- [max || min.py](Acciones/max_min.py)**: Encuentra el máximo y mínimo valor en el RDD.
-- [reduce.py](Acciones/reduce.py)**: Usa `reduce` para combinar elementos del RDD iterativamente.
-- [saveAsTextFile.py](Acciones/saveAsTextFile.py)**: Guarda el RDD en un archivo de texto.
-- [take.py](Acciones/take.py)**: Retorna una cantidad específica de elementos del RDD.
+- [collect.py](Acciones/collect.py): Muestra la acción `collect`, que recupera todos los elementos del RDD al controlador.
+- [count.py](Acciones/count.py): Ejemplo de `count`, que cuenta el total de elementos del RDD.
+- [countByKey.py](Acciones/countByKey.py): Utiliza `countByKey` para contar elementos por clave en un RDD de pares.
+- [first.py](Acciones/first.py): Demuestra `first`, que devuelve el primer elemento del RDD.
+- [foreach.py](Acciones/foreach.py): Aplica `foreach` para ejecutar una función en cada elemento.
+- [max || min.py](Acciones/max_min.py): Encuentra el máximo y mínimo valor en el RDD.
+- [reduce.py](Acciones/reduce.py): Usa `reduce` para combinar elementos del RDD iterativamente.
+- [saveAsTextFile.py](Acciones/saveAsTextFile.py): Guarda el RDD en un archivo de texto.
+- [take.py](Acciones/take.py): Retorna una cantidad específica de elementos del RDD.
 
 
