@@ -2,7 +2,7 @@ from pyspark import SparkContext
 
 sc = SparkContext("local", "Union Sentences Example")
 
-# Datos de ejemplo: dos listas de oraciones
+# Datos
 oracion1 = ["Gato"]
 oracion2 = ["Durmiendo"]
 
