@@ -13,6 +13,6 @@ rdd_grupo = rdd.groupByKey()
 
 # mostramos el resultado
 resultado = rdd_grupo.mapValues(list).collect()
-print("Valores agrupados por categoría:", resultado)
+print("Valores:", resultado)
 
 sc.stop()
